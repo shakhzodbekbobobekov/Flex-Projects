@@ -153,8 +153,7 @@ body {
 .boxes div {
     border: 2px solid rgb(180, 174, 174);
     margin-right: 20px;
-    padding: 30px;
-    
+    padding: 30px;    
 }
 
 .child-one, .child-two, .child-three, .child-four {
@@ -169,6 +168,10 @@ body {
 .boxes div:hover {
     background-color: rgb(40, 39, 39);
     color: #fff;
+}
+
+.boxes div:active {
+   opacity: 0.8;
 }
 
 
